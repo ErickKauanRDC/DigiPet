@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>DigiPet</title>
+	  <link rel="icon" href="sprite/logo.png" />
+  </head>
+  <body>
+    <div class="criadores">
+      <h1>Criadores do Site</h1>
+      <h2>Erick Kauan</h2>
+      <p>Criador do Javascript e da ideia do site</p>
+      <h2>Iuri Veras</h2>
+      <p>Ajuda no CSS e parte grafica do site</p>
+      <h2>Caio Costa</h2>
+      <p>CSS e HTML do site</p>
+    </div>
+    <div id="particles-js"></div>
+    <input type="checkbox" id="check">
+    <label id="icone" for="check"><img src="sprite/icone.png"></label>
+	<div id = 'modal'>
+  <h2>DigiAlerta</h2>
+  <p id = 'texto-mostrar'></p>
+  </div>
+    <div class="barra">
+      <nav>
+        <ul>
+          <img src="sprite/logo.png">
+          <li><a href="start.html">Novo Jogo</a></li>
+          <li><a href="index.html">Continuar</a></li>
+          <li id='sobre'><a href="#">Sobre</a></li>
+          <li><a href="extra.html">Extra</a></li>
+        </ul>
+      </nav>
+    </div>
+      <img id='logo-extra' src="sprite/logo.png">
+      <h1>EXTRAS</h1>
+      <div class="master">
+        <div class="lojinha">
+          <h3>Comprar Digimons</h3>
+          <h3>Betamon</h3>
+          <img src="sprite/betamon.gif">
+          <h3>Agua</h3>
+          <p>Betamon um simpatico digimon anfinbio aquatico do tipo Water , possui dentes afiados e seu corpo e capaz de nadar a mais de 105km/h</p>
+          <button>1000 Digicoins</button>
+          <img src="sprite/gabumon.gif">
+          <p>Gabumon um digimon reptil(com pelos) , e do tipo fogo  usa sua pelage para sobreviver em baixissimas temperaturas seu chifre tem a pontecia de uma retroescavadeira</p>
+          <button>2500 Digicoins</button>
+		  <h1>Pacote de Inimigos</h2>
+		  <h3>Pacote Digimundo Sombrio</h2>
+		  <img src="sprite/AeroVeedramon.gif">
+		  <p>AeroVeedramon e outros veem das profundezas do Digimundo Sombrio como inimigos bem mais fortes e com melhores recompensas</p>
+		  <button>3000 Digicoins</button>
+		  <h3>Pacote Ultralendas Sombrias</h2>
+		  <img src="sprite/Kimeramon.gif">
+		  <p>Enfrente os mais malignos e fortes digimons inimigos nesse pacote que contem Kimeramon entre outros</p>
+		  <button>5000 Digicoins</button>
+		  <img src="sprite/demon_lords/levimon.gif">
+		  <p>Enfrente Levimon e os outro Seis Anjos Caidos do digimundo , habitando a Dark-Area os Sete Lordes Demonios sao os mais resistentes e fortes inimigos</p>
+		  <button>8000 Digicoins</button>
+		</div>
+		<div class='modulo'>
+		<h1>Modulo Yggdrasil</h1>
+		<h3>Crie um digimon Inimigo</h3>
+		<p>Desbloqueie o Modulo Yggdrasil e habilite a funcao de criar digimons para usa-los como inimigos</p>
+
+		<div id='criador'>
+		<div id='c-display'><img src=''></div>
+		<p>Gif do Digimon<input onchange="previewFile()" type='file'></p>
+		<p>Nome do Digimon<input id='nomeNovo' type= 'text'></p>
+		<p>Dano do Digimon<input id='modulo-dano' type='number'></p>
+		<p>Vida do Digimon<input id='modulo-vida' type='number'></p>
+		<p>Recompensa do Digimon<input id='modulo-recompensa' type='number'></p>
+		<button id='criar'> Criar Digimon</button>
+		</div>
+		</div>
+    <button id='buyIgg'>10000 Digicoins</button>
+    </div>
+	<script src="modulo.js"></script>
+	<script src="modal.js"></script>
+    <script src="buy.js"></script>
+    <script src="jquery-latest.js"></script>
+	<script src="enemys.js"></script>
+  	<script src="particles.js"></script>
+	<script src="sobre.js"></script>
+  	<script src="particulas.js"></script>
+  </body>
+</html>

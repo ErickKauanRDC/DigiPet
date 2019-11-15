@@ -1,0 +1,3 @@
+[0909/150536.274:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0909/190021.732:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0914/015310.446:ERROR:file_io_win.cc(243)] SetEndOfFile: A operação solicitada não pode ser executada em um arquivo com uma seção mapeada pelo usuário aberta. (0x4C8)

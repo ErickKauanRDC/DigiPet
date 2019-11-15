@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DigiPet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="sprite/logo.png" />
+
+  </head>
+  <body>
+    <div class="criadores">
+      <h1>Criadores do Site</h1>
+      <h2>Erick Kauan</h2>
+      <p>Criador do Javascript e da ideia do site</p>
+      <h2>Iuri Veras</h2>
+      <p>Ajuda no CSS e parte grafica do site</p>
+      <h2>Caio Costa</h2>
+      <p>CSS e HTML do site</p>
+    </div>
+    <div id="particles-js"></div>
+    <input type="checkbox" id="check">
+    <label id="icone" for="check"><img src="sprite/icone.png"></label>
+	<div id = 'modal'>
+  <h2>DigiAlerta</h2>
+  <p id = 'texto-mostrar'></p>
+  </div>
+    <div class="barra">
+      <nav>
+        <ul>
+          <img src="sprite/logo.png">
+		  <button id='music-play'>♫</button>
+          <li><a href="start.html">Novo Jogo</a></li>
+          <li><a href="index.html">Continuar</a></li>
+          <li><a id='sobre' href="#">Sobre</a></li>
+          <li><a href="extra.html">Extra</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+    <p>Apelido <input type="text" id="digi-name"></p>
+    <p>Selecione seu digimon</p>
+    <img class="egg" src="sprite/egg1.png" data-name="Patamon" data-type="Wind" data-des="Um digimon angelical do tipo besta alveja seus inimigos com correntes de ar">
+    <img class="egg" src="sprite/egg2.png" data-name="Demidevimon" data-type="Dark" data-des="Um digimon peverso do tipo demonio Demidevimon possui alta velocidade e pode alvejar inimigos com pequenas rajadas de trevas">
+    <img class="egg" src="sprite/egg3.png" data-name="Tentomon" data-type="Eletric" data-des="Um digimon eletrico do tipo inseto Tentomon pode dar pequenas descargas eletricas alem da sua força de besouro">
+    <img id='gabu' class="egg blocked" src="sprite/egg4.png" data-name="Gabumon" data-type="Fire" data-des="Gabumon e um Digimon Reptil. Embora esteja coberto por uma pele de pelo, ainda e claramente um Digimon Reptil">
+    <img id='beta' class="egg blocked" src="sprite/egg5.png" data-name="Betamon" data-type="Water" data-des="Betamon e um digimon anfibio. Anda sobre quatro pernas. Sua personalidade e gentil, mas embora seja um Digimon docil, uma vez que Betamon fica irritado, emite seu Choque Eletrico">
+    <h2 id="name"></h2>
+    <h3 id="type"></h3>
+    <p id="des"></p>
+    <button id="submit">Registrar Digimon</button>
+    </div>
+
+    <script src="register.js"></script>
+	<script src="modal.js"></script>
+    <script src="jquery-latest.js"></script>
+  	<script src="particles.js"></script>
+  	<script src="particulas.js"></script>
+    	<script src="sobre.js"></script>
+  </body>
+</html>

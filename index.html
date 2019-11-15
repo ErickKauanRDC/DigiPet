@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DigiPet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="sprite/logo.png" />
+  </head>
+  <body>
+    <div class="criadores">
+      <h1>Criadores do Site</h1>
+      <h2>Erick Kauan</h2>
+      <p>Criador do Javascript e da ideia do site</p>
+      <h2>Iuri Veras</h2>
+      <p>Ajuda no CSS e parte grafica do site</p>
+      <h2>Caio Costa</h2>
+      <p>CSS e HTML do site</p>
+    </div>
+    <div id="particles-js"></div>
+	<input type="checkbox" id="check">
+  <label id="icone" for="check"><img src="sprite/icone.png"></label>
+  <input type="checkbox" id="check-digivice">
+  <label id="icone-digivice" for="check-digivice"><img src="sprite/icone.png"></label>
+  <div id = 'modal'>
+  <h2>DigiAlerta</h2>
+  <p id = 'texto-mostrar'></p>
+  </div>
+  <div class="barra">
+    <nav>
+      <ul>
+        <img src="sprite/logo.png">
+		<button id='music-play'>♫</button>
+        <li><a href="start.html">Novo Jogo</a></li>
+        <li><a href="index.html">Continuar</a></li>
+        <li><a id='sobre'href="#">Sobre</a></li>
+        <li><a href="extra.html">Extra</a></li>
+      </ul>
+    </nav>
+  </div>
+
+    <div class="digimon-main">
+      <h1 id="nomedigimon"></h1>
+      <img id="digi" >
+    </div>
+    <div id="barras">
+    <div id='vida'>
+    <img class='icone' src='sprite/h-ico.png'>
+    </div>
+    <div id='fome'>
+	<img class='icone' src='sprite/f-ico.png'>
+    </div>
+	<div id='xp'>
+	<img class='icone' src='sprite/xp-ico.png'>
+    </div>
+  </div>
+  <div class="inventario">
+    <table>
+      <tr>
+        <td><img class="item-box" src='sprite/nothing.png'></td>
+        <td><img class="item-box" src='sprite/nothing.png'></td>
+      </tr>
+      <tr>
+        <td><img class="item-box" src='sprite/nothing.png'></td>
+        <td><img class="item-box" src='sprite/nothing.png'></td>
+      </tr>
+    </table>
+  </div>
+  <button id='formar'> Forjar Item </button>
+</div>
+   <div id="digivice">
+<h1>Digivice</h1>
+<p id="coins"> </p>
+<p id="food"> </p>
+<div class="tela">
+<img id="inimigo">
+</div>
+<button class="button-digivice">
+Procurar Digimon
+</button >
+<button id='digivolve' class="button-digivice">
+Digivolver
+</button >
+<button id='foodBuy' class="button-digivice">
+Comprar comida
+</button>
+<button id='feed' class="button-digivice">
+Alimentar
+</button>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
+  <script src="script.js"></script>
+  <script src="modal.js"></script>
+  <script src="jquery-latest.js"></script>
+  <script src="particles.js"></script>
+  <script src="particulas.js"></script>
+  <script src="enemys.js"></script>
+  	<script src="sobre.js"></script>
+  </body>
+</html>

@@ -434,3 +434,51 @@ td {
 	from{transform:scale(1);}
 	to{transform:scale(1.5);}
 }
+#roletaDiv{
+	display: block;
+	margin: 0 auto;
+}
+#bet-options {
+	margin: 0 35%;
+	width: 450px;
+	height: 100px;
+	border: solid black 1px;
+	background-color: blue;
+	color: orange;
+}
+#bet-options input{
+	width: 63%
+}
+#roletaDiv img{
+	width: 270px;
+	height: 270px;
+	margin: 0 40%;
+}
+#marcador{
+	transform: scale(0.2);
+	z-index: 2;
+	position: absolute;
+	top: -120px;
+	left: 0;
+	
+}
+#roletaDiv button{
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+}
+#red{
+	background-color: red;
+	color: white;
+	border: none;
+}
+#black{
+	background-color: black;
+	color: white;
+	border: none;
+
+}
+#whell{
+	transition: 10s;
+	animation: ease-in-out;
+}
